@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset=UTF-8>
+  <title>Jens Wunderling | Audience</title>
+  <link rel="stylesheet" href="/css/base.css" type="text/css">
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <!-- include Cycle plugin -->
+  <script type="text/javascript" src="/js/jquery.cycle.all.latest.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $image = $('.flickr-badge a');
+      width = $image.width();
+      height = $image.height();
+
+      $image.css({
+          left: 0 - (width / 2),
+          top: 0 - (height / 2)
+      });
+      $('.flickr-badge').cycle({
+  		fx: 'fade', startingSlide:1, fit:1, width:180, height:130 // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+  	});
+  });
+  </script>
+  <meta name="keywords" content="berlin,jens wunderling,wunderling,design,generative,generative design,processing,computational,computational design,interaction design,interactive installations,art,media art,interactive objects">
+</head>
+    <body id="audience">
+        <section id="wrapper">
+            <header>
+  <nav id="navigation">
+  <ol>
+  <li><a href="/">Portfolio</a></li>
+  
+      
+    
+      
+          <li><a href="/cv/">CV</a></li>
+      
+    
+      
+          <li><a href="/contact/">Contact</a></li>
+      
+    
+  </ol>
+</nav>
+</header>	
+            <article class="project-description">
+                <h2>Audience <span class="project-year">(2010)</span></h2>
+                <section role="main">
+                    <p>Networked Installation from the default to public series</p>
+
+<p>Audience follows the default to public principle of confronting the users of social software platforms on the internet with the fact that their data is visible everywhere.</p>
+
+<p>Audience focuses on images uploaded on flickr.com, a service to share photos with friends and family.</p>
+
+<p>Audience aggregates personal photos licenced under a creative commons license and displays them randomly on a screen. If a viewer approaches, a face detection recognizes his or her presence, takes a photo, blurs it and uploads it to its own account, after that sets a comment at the original photo, informing the owner that some stranger just viewed it. instead of just an abstract view counter, the user is confronted with a real and unknown audience.</p>
+                </section>
+            </article>
+            
+            
+            <article class="gallery">
+                
+                    <img src="/works/audience/images/0.audience_cynet_close.JPG" alt="0.Audience Cynet Close">
+                
+                    <img src="/works/audience/images/1.audience_cynet.JPG" alt="1.Audience Cynet">
+                
+                    <img src="/works/audience/images/2.audience_screen.png" alt="2.Audience Screen">
+                
+            </article>
+            
+            <footer>  
+  <p>Built with <a href="http://www.tinytree.info">Bonsai</a> © 2012 - Jens Wunderling</p>
+</footer>
+        </section>
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-330722-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+     </body>
+</html>
