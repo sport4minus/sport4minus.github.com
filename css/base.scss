@@ -11,8 +11,9 @@ body {
 }
 /* Put your styles below here */
 #wrapper { 
-    margin: 0 auto; 
-    width: 80%; 
+    margin: 0 auto;
+    padding: 1em 0em 1em 1em;
+    max-width:912px;
     h2, h3 {
        margin-top:0; 
        margin-bottom:0.4em;
@@ -26,16 +27,16 @@ body {
         }
         section {
             &.main{
-                width: 23.7em;
+                width: 420px;
                 float:left;
-                margin-right: 2.7em;
+                margin-right:20px;
             }
             &.project-gallery-item{
                 width:200px;
                 font-size:0.7em;
                 float: left;
-                margin-right: 1em;
-                margin-bottom: 1em;
+                margin-right: 20px;
+                margin-bottom: 20px;
                 
                 &.projects-addition{
                     background-color:#444;
@@ -43,8 +44,7 @@ body {
                     height:130px;
                     color: white;
                     padding:10px;
-                    margin-bottom:2.3em;
-                    
+                                        
                     a, h3{
                         font-size:2em;
                         display:block;
