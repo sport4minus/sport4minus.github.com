@@ -1,0 +1,46 @@
+    header{
+        #navigation {
+            font-size: 1em;
+        }
+    }
+    #wrapper {
+        width: 100%;
+        padding: 0.2em 1em;
+        article {
+            p {
+                font-size:0.9em;
+            }
+            &.project-description{
+                width:80%;
+            }
+            &.gallery{
+                img{
+                    max-width:300px;
+                }
+            }
+            &.vimeo {
+                display:none;
+            }
+            section {
+                
+                &.main {
+                    width:80%;
+                }
+                &.project-gallery-item, img{
+                    max-width: 150px;
+                }
+                &.projects-addition {
+                    display: none;
+                }
+
+                
+            }
+            margin:0px;
+            padding:0.1em;
+        }
+    }
+    span.project-gallery-year{
+        display:none;
+    }
+    
+    

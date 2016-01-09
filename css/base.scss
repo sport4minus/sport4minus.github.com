@@ -11,8 +11,9 @@ body {
 }
 /* Put your styles below here */
 #wrapper { 
-    margin: 0 auto; 
-    width: 80%; 
+    margin: 0 auto;
+    padding: 1em 0em 1em 1em;
+    max-width:912px;
     h2, h3 {
        margin-top:0; 
        margin-bottom:0.4em;
@@ -26,16 +27,16 @@ body {
         }
         section {
             &.main{
-                width: 23.7em;
+                width: 420px;
                 float:left;
-                margin-right: 2.7em;
+                margin-right:20px;
             }
             &.project-gallery-item{
                 width:200px;
                 font-size:0.7em;
                 float: left;
-                margin-right: 1em;
-                margin-bottom: 1em;
+                margin-right: 20px;
+                margin-bottom: 20px;
                 
                 &.projects-addition{
                     background-color:#444;
@@ -43,8 +44,7 @@ body {
                     height:130px;
                     color: white;
                     padding:10px;
-                    margin-bottom:2.3em;
-                    
+                                        
                     a, h3{
                         font-size:2em;
                         display:block;
@@ -139,20 +139,6 @@ header {
 
 nav li { display: inline; list-style-type: none; }
 
-#breadcrumbs, footer { color: gray; font-size: 0.7em; }
-
-#breadcrumbs {
-	li:not(:last-child):after { content: " ➔";}
-	border-top: 1px solid lightgray;
-	padding-top:5px;
-	a { color: inherit; }
-}
-
-#sub-navigation{
-	font-size: 0.8em;
-	li { display: block; margin-bottom: 5px; }
-}
-
 nav, footer { margin: 1em 0;}
 footer{
     clear:both;
@@ -171,17 +157,5 @@ h6 { font-size: 0.9em; }
 a { color: #256ec4; }
 p { font-size: 0.8em; line-height: 140%; margin-bottom: 10px; color: #333;}
 
-
-/* Floating the Magic template */
-.magic article { 
-	width: 450px; 
-	float: left; 
-	border-right: 1px solid lightgray;
-	margin-right: 14px; 
-	padding-right: 15px;
-}
-.magic aside { 
-	width: 180px; 
-	float: left 
-}
 .clear{ clear: both; }
+
