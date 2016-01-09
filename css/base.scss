@@ -76,6 +76,9 @@ body {
         }
         &.project-description{
             width:27em;
+            img {
+                width: 600px
+            }
         }
         &.gallery {
             width: 600px;
